@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S. Purnachandra Rao | DevOps Portfolio</title>
+    <meta name="description"
+        content="Portfolio of S. Purnachandra Rao, a DevOps Fresher specializing in Linux, Git, Docker, AWS, Jenkins, and CI/CD pipelines.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-theme">
+
+    <!-- Starfield Canvas Background -->
+    <canvas id="starfield"></canvas>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Terminal Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="terminal-loader">
+            <span class="prompt">$</span> <span id="typewriter-preloader"></span><span class="cursor-blink">_</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">SPR<span class="neon-dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <p class="greeting">Hi, I am</p>
+            <h1 class="glitch-text" data-text="S. Purnachandra Rao">S. Purnachandra Rao</h1>
+            <p class="tagline"><span id="typewriter-hero"></span><span class="cursor-blink">|</span></p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="https://github.com/Purna303703" target="_blank" class="btn btn-icon"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/purna-chandra-rao-304128389/" target="_blank"
+                    class="btn btn-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container fade-in-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text glass-panel">
+                    <p>
+                        I am a forward-thinking <strong>DevOps fresher</strong> with rigorous practical experience
+                        across the modern infrastructure stack. Currently pursuing my B.Sc in Computer Science, I am
+                        deeply passionate about bridging the gap between development and operations.
+                    </p>
+                    <p>
+                        My focus lies in building scalable, secure, and highly automated CI/CD pipelines, containerizing
+                        applications, and architecting robust cloud environments. I thrive on solving complex problems
+                        through elegant scripts and infrastructure as code.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item"><i class="fa-solid fa-location-dot"></i> Andhra Pradesh, India</div>
+                        <div class="detail-item"><i class="fa-solid fa-envelope"></i> chandraraop698@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Technical Arsenal</h2>
+            <div class="skills-grid">
+
+                <div class="skill-category glass-panel fade-in-up">
+                    <div class="category-header">
+                        <i class="fa-brands fa-aws category-icon"></i>
+                        <h3>Cloud & Infrastructure</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="tech-name">AWS (EC2, S3, IAM)</span></li>
+                        <li><span class="tech-name">Linux Administration</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-panel fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="category-header">
+                        <i class="fa-brands fa-docker category-icon"></i>
+                        <h3>Containerization</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="tech-name">Docker</span></li>
+                        <li><span class="tech-name">Docker Compose</span></li>
+                        <li><span class="tech-name">Docker Hub</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-panel fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="category-header">
+                        <i class="fa-brands fa-jenkins category-icon"></i>
+                        <h3>CI/CD & Version Control</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="tech-name">Linux</span></li>
+                        <li><span class="tech-name">Git & GitHub Actions</span></li>
+                        <li><span class="tech-name">Ansible</span></li>
+                        <li><span class="tech-name">Jenkins</span></li>
+                        <li><span class="tech-name">Kubernetes</span></li>
+                        <li><span class="tech-name">Terraform</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass-panel fade-in-up" style="transition-delay: 0.3s;">
+                    <div class="category-header">
+                        <i class="fa-solid fa-code category-icon"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="tech-name">Python</span></li>
+                        <li><span class="tech-name">Shell Scripting</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card glass-panel fade-in-up">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-solid fa-brain project-icon"></i>
+                            <h3>Mining Machine Learning Project</h3>
+                        </div>
+                        <p class="project-desc">Developed a Machine Learning model for mining datasets. Explored
+                            predictive analytics and data processing techniques to solve complex problems in the mining
+                            sector.</p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Machine Learning</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                        <a href="https://github.com/Purna303703/mining_project-ml" target="_blank"
+                            class="btn btn-icon mt-4" style="font-size: 1rem; width: 40px; height: 40px;"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-panel fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-solid fa-leaf project-icon"></i>
+                            <h3>Agriculture Crop Prediction</h3>
+                        </div>
+                        <p class="project-desc">Created a predictive model for agriculture crop production in India.
+                            Analyzed various factors like weather and soil to accurately forecast crop yields and
+                            optimize agricultural planning.</p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Machine Learning</li>
+                            <li>Predictive Modeling</li>
+                        </ul>
+                        <a href="https://github.com/Purna303703/Prediction-of-Agriculture-Crop-Production-in-India"
+                            target="_blank" class="btn btn-icon mt-4"
+                            style="font-size: 1rem; width: 40px; height: 40px;"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-panel fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-brands fa-aws project-icon"></i>
+                            <h3>AWS Cloud Infrastructure</h3>
+                        </div>
+                        <p class="project-desc">Architected and deployed highly available web environments on AWS.
+                            Provisioned EC2 instances, configured deep security group rules, and managed scalable S3
+                            storage solutions.</p>
+                        <ul class="project-tech">
+                            <li>AWS EC2</li>
+                            <li>AWS S3</li>
+                            <li>Security Groups</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section-padding">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Education</h2>
+            <div class="timeline">
+
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <span class="timeline-date">2022 - Present (Expected 2026)</span>
+                        <h3>B.Sc in Computer Science</h3>
+                        <h4>Kotha Hanumaya & Lakshmi Kotamma Degree College</h4>
+                        <p>Piduguralla Mandal, Andhra Pradesh</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <span class="timeline-date">2020 - 2022</span>
+                        <h3>Intermediate</h3>
+                        <h4>Sri Vikash Junior College</h4>
+                        <p>Dachepalli Mandal, Andhra Pradesh | Score: 70.3%</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer">
+        <div class="container flex-footer fade-in-up">
+            <div class="footer-title">
+                <a href="mailto:chandraraop698@gmail.com" class="btn btn-primary mt-4">Get in Touch <i
+                        class="fa-solid fa-paper-plane"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/Purna303703" target="_blank" class="social-link"><i
+                        class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/purna-chandra-rao-304128389/" target="_blank"
+                    class="social-link"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> S. Purnachandra Rao. Designed & Built flawlessly.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Interactivity -->
+    <script src="script.js"></script>
+</body>
+
+</html>
