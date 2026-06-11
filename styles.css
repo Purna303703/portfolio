@@ -894,3 +894,22 @@ body .cursor-follower {
     z-index: -1;
     pointer-events: none;
 }
+/* Certifications Section */
+
+#certifications img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+#certifications .project-card:hover img {
+    transform: scale(1.03);
+}
+
+#certifications h3 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+}
