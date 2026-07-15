@@ -31,8 +31,8 @@ Since it's built with pure HTML, CSS, and JS, there's no complicated setup to ge
 ## Let's Connect
 Feel free to reach out if you want to collaborate or just chat about tech.
 - **Email:** chandraraop698@gmail.com
-- **LinkedIn:** [Purna Chandra Rao](https://www.linkedin.com/in/purna-chandra-rao-304128389/)
+- **LinkedIn:** [Purna Chandra Rao](https://www.linkedin.com/in/s-purnachandra-rao-devops-engineer/)
 - **GitHub:** [Purna303703](https://github.com/Purna303703)
-
+- **portfolio** [purnachandrarao-portfolio](https://purnachandrarao-portfolio.netlify.app/)
 Thanks for visiting by!
 your purna 😊✌️
